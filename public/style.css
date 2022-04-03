@@ -1,0 +1,107 @@
+.inbox_people{
+    background-color: rgb(224, 218, 218);
+      width:400px;
+    padding-top: 10px;
+    height:80vh;
+    margin-right:0;
+    padding-right:0;
+}
+.container{
+  position: relative;
+}
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  padding-left:10px;
+ 
+  border-bottom:2px solid rgb(66, 65, 65);
+}
+.chat_ib{
+    font-size: 18px;
+    padding-left: 5px;
+    color:rgb(7, 158, 39);
+}
+.inbox{
+  display:flex;
+  flex-direction: column;
+  
+  position: relative;
+  border:1px solid black;
+}
+.message_form_input{
+    width:90vw;
+    height:50px;
+}
+.message_form_button{
+    background-color: rgb(122, 122, 248);
+    height: 40px;
+    width:80px;
+    border:0px;
+   cursor: pointer;
+    color:white;
+     border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px; 
+};
+.message_form_button:hover{
+    background-color: rgb(149, 149, 243);
+}
+.inbox_messages{
+  width:800px;
+  margin-right:0;
+  padding-right:0;
+  position:absolute;
+  right:0;
+}
+
+.messages_history{
+  position: relative;
+  border:1px solid gray;
+  width:800px;
+  
+  overflow: auto;
+  height:82vh;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+ 
+}
+.sent_msg{
+  font-size: 16px;
+  padding-left:5px;
+  padding-top:0px;
+  padding:10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color: rgb(92, 212, 76);
+  color:white;
+  width:max-content;
+  margin-right:0;
+}
+.time_date{
+  font-size:13px;
+   padding-left:5px;
+}
+.outgoing_msg{
+  margin-left:600px;
+  margin-top:10px;
+  
+  
+}
+.receive_msg{
+   border:1px solid black;
+  border-radius: 10px;
+  width:max-content;
+  background-color: rgb(226, 224, 224);
+  margin:10px;
+  padding:10px;
+}
+.message_form_input{
+  border-top:none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;;
+};
+.fallback{
+  margin:10px;
+  font-size: 15px;
+}
